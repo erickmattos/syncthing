@@ -971,6 +971,7 @@ next:
 				})
 
 				m.AddConnection(conn, protoConn)
+				protoConn.Start()
 				continue next
 			}
 		}
